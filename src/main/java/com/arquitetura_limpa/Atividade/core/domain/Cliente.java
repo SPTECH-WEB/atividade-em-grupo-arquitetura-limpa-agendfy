@@ -27,4 +27,36 @@ public class Cliente {
         this.idade = idade;
         this.profissao = profissao;
     }
+
+    public UUID getId() {
+        return id;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public Telefone getTelefone() {
+        return telefone;
+    }
+
+    public Email getEmail() {
+        return email;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public Float getRendaMensal() {
+        return rendaMensal;
+    }
+
+    public Idade getIdade() {
+        return idade;
+    }
+
+    public String getProfissao() {
+        return profissao;
+    }
 }
