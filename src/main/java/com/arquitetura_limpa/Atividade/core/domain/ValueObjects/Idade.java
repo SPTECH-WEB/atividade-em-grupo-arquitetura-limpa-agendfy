@@ -15,13 +15,13 @@ public class Idade {
             if (dataNascimento.isAfter(LocalDate.now())) {
                 throw new IllegalArgumentException("Data de nascimento inválida");
             }
-            calcularIdade();
+            this.idade = calcularIdade();
         }
 
-    public void calcularIdade() {
+    public Integer calcularIdade() {
         LocalDate dataNascimento = this.dataNascimento;
         LocalDate dataAtual = LocalDate.now();
-        this.idade = dataAtual.getYear() - dataNascimento.getYear();
+        return this.idade = dataAtual.getYear() - dataNascimento.getYear();
 
     }
 
