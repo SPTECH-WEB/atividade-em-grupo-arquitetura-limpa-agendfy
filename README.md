@@ -5,6 +5,28 @@ Este projeto é uma prova de conceito para uma API REST que permite o cadastro d
 
 A solução foi pensada para ser **modular, extensível e preparada para integração futura** com serviços externos como bureaus de crédito ou sistemas CRM.
 
+
+
+## 👥 Equipe
+
+Guilherme Gavassa
+João Vitor
+Kauan Paschoal
+Kauê de Oliveira
+Lucas Oliveira
+Gustavo Rizerio
+
+## 🛠️ Divisão de Tarefas
+
+Guilherme Gavassa de Siqueira	: Documentação do projeto e melhorias na API
+João Vitor	                  : Estrutura da API e regras de negócio
+Kauan Paschoal	              : Integração e testes dos endpoints
+Kaue Oliveira                 :	Modelo de dados e validações
+Lucas Oliveira	              : Criação dos controllers e endpoints REST
+Gustavo Rizerio	              : Implementação das regras de risco e persistência
+
+
+
 ---
 
 ## 🧠 Contexto
