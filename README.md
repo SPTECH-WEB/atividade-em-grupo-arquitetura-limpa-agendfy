@@ -18,12 +18,13 @@ Gustavo Rizerio
 
 ## 🛠️ Divisão de Tarefas
 
-Guilherme Gavassa de Siqueira	: Documentação do projeto e melhorias na API
-João Vitor	                  : Estrutura da API e regras de negócio
-Kauan Paschoal	              : Integração e testes dos endpoints
-Kaue Oliveira                 :	Modelo de dados e validações
-Lucas Oliveira	              : Criação dos controllers e endpoints REST
-Gustavo Rizerio	              : Implementação das regras de risco e persistência
+- **Guilherme Gavassa de Siqueira**: Documentação do projeto e melhorias na API  
+- **João Vitor**: Estrutura da API e regras de negócio  
+- **Kauan Paschoal**: Integração e testes dos endpoints  
+- **Kaue Oliveira**: Modelo de dados e validações  
+- **Lucas Oliveira**: Criação dos controllers e endpoints REST  
+- **Gustavo Rizerio**: Implementação das regras de risco e persistência  
+
 
 
 
