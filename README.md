@@ -9,12 +9,13 @@ A solução foi pensada para ser **modular, extensível e preparada para integra
 
 ## 👥 Equipe
 
-Guilherme Gavassa
-João Vitor
-Kauan Paschoal
-Kauê de Oliveira
-Lucas Oliveira
-Gustavo Rizerio
+- Guilherme Gavassa  
+- João Vitor  
+- Kauan Paschoal  
+- Kauê de Oliveira  
+- Lucas Oliveira  
+- Gustavo Rizerio  
+
 
 ## 🛠️ Divisão de Tarefas
 
