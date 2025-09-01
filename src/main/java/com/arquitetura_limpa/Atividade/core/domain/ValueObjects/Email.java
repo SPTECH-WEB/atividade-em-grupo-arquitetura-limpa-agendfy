@@ -6,6 +6,11 @@ import java.util.regex.Matcher;
 public class Email {
     public String email;
 
+    public Email(String email) {
+        validarEmail(email);
+        this.email = email;
+    }
+
     public void validarEmail(String email) {
         String regex = "^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$";
         Pattern pattern = Pattern.compile(regex);

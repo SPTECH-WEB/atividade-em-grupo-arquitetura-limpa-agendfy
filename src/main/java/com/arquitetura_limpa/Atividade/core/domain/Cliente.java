@@ -1,9 +1,9 @@
 package com.arquitetura_limpa.Atividade.core.domain;
 
 import com.arquitetura_limpa.Atividade.core.domain.ValueObjects.Email;
-import com.arquitetura_limpa.Atividade.core.domain.ValueObjects.Idade;
 import com.arquitetura_limpa.Atividade.core.domain.ValueObjects.Telefone;
 
+import java.time.LocalDate;
 import java.util.UUID;
 
 public class Cliente {
@@ -14,17 +14,20 @@ public class Cliente {
     private Email email;
     private String cpf;
     private Float rendaMensal;
-    private Idade idade;
+    private LocalDate dataNascimento;
     private String profissao;
 
-    public Cliente(UUID id, String nome, Email email, Telefone telefone, String cpf, Float rendaMensal, Idade idade, String profissao) {
+    public Cliente() {
+    }
+
+    public Cliente(UUID id, String nome, Email email, Telefone telefone, String cpf, Float rendaMensal, LocalDate dataNascimento, String profissao) {
         this.id = id;
         this.nome = nome;
         this.email = email;
         this.telefone = telefone;
         this.cpf = cpf;
         this.rendaMensal = rendaMensal;
-        this.idade = idade;
+        this.dataNascimento = dataNascimento;
         this.profissao = profissao;
     }
 
@@ -52,11 +55,15 @@ public class Cliente {
         return rendaMensal;
     }
 
-    public Idade getIdade() {
-        return idade;
+    public LocalDate getDataNascimento() {
+        return dataNascimento;
     }
 
     public String getProfissao() {
         return profissao;
+    }
+
+    public int getIdade() {
+        return LocalDate.now().getYear() - this.dataNascimento.getYear();
     }
 }

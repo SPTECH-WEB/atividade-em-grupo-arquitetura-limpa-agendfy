@@ -1,10 +1,6 @@
 package com.arquitetura_limpa.Atividade.core.domain.ValueObjects;
 
-import org.springframework.cglib.core.Local;
-
 import java.time.LocalDate;
-import java.util.Calendar;
-import java.util.Date;
 
 public class Idade {
         private LocalDate dataNascimento;

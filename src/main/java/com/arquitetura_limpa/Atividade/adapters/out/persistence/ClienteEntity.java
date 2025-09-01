@@ -23,6 +23,6 @@ public class ClienteEntity {
     private String telefone;
     private String cpf;
     private Float rendaMensal;
-    private Integer idade;
+    private String dataNascimento;
     private String profissao;
 }
