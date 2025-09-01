@@ -19,13 +19,14 @@ A solução foi pensada para ser **modular, extensível e preparada para integra
 
 ## 🛠️ Divisão de Tarefas
 
-- **Guilherme Gavassa de Siqueira**: Documentação do projeto e melhorias na API  
-- **João Vitor**: Estrutura da API e regras de negócio  
-- **Kauan Paschoal**: Integração e testes dos endpoints  
-- **Kaue Oliveira**: Modelo de dados e validações  
-- **Lucas Oliveira**: Criação dos controllers e endpoints REST  
-- **Gustavo Rizerio**: Implementação das regras de risco e persistência  
+- **Guilherme Gavassa de Siqueira**: Criação de atributos e Value Objects
+- **João Vitor**: Criação de Caso de Uso, e atualização do README
+- **Kauan Paschoal**: Criação de estrutura de pastas, criação de Value Objects e Entity
+- **Kaue Oliveira**: Criação de Value Objects e Entidades
+- **Lucas Oliveira**: Criação de Value Objects e Entidades
+- **Gustavo Rizerio**: Implementação de Controllers e Service
 
+Tentamos dividir as tarefas de forma que não prejudicasse o desenvolvimento dos membros do grupo, alguns podem ter "dado" menos commits, porem atuamos de forma presencial durante a aula, o que pode ter levado a um ou mais integrantes, pensarem de forma conjunta em prol do desenvolvimento dessa prova de conceito.
 
 
 
